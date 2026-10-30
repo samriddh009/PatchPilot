@@ -4,63 +4,50 @@
 !.env.example
 *.pem
 *.key
-*.p12
-*.pfx
-*.pkcs12
-id_rsa*
-id_ed25519*
-id_ecdsa*
 secrets/
 credentials/
 
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.pyd
 .Python
 .venv/
 venv/
 env/
-ENV/
-.env/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .coverage
-.coverage.*
 htmlcov/
 
-# Node / Frontend
+# Node / frontend
 node_modules/
 dist/
-dist-ssr/
 build/
 .vite/
 coverage/
-*.tsbuildinfo
 
-# Desktop and Electron build output
+# Desktop build output
 release/
 out/
-dist-electron/
 *.exe
 *.msi
-*.dmg
-*.AppImage
-*.asar
 
-# Local databases and runtime state
+# Local databases and runtime data
 *.db
-*.db-journal
-*.db-wal
-*.db-shm
 *.sqlite
 *.sqlite3
 data/
 runtime/
 logs/
 *.log
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
 # Temporary files
 *.tmp
@@ -72,14 +59,10 @@ tmp/
 temp/
 web_ingested/
 
-# Process runtime artifacts
+# Runtime artifacts
 *.pid
 *.sock
 
-# IDE and operating system
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+# Keep only the root README on GitHub
+*.md
+!/README.md
