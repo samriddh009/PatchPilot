@@ -1,0 +1,85 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.pkcs12
+id_rsa*
+id_ed25519*
+id_ecdsa*
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Desktop and Electron build output
+release/
+out/
+dist-electron/
+*.exe
+*.msi
+*.dmg
+*.AppImage
+*.asar
+
+# Local databases and runtime state
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+data/
+runtime/
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Temporary repository ingestion data
+tmp/
+temp/
+web_ingested/
+
+# Process runtime artifacts
+*.pid
+*.sock
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini

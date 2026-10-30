@@ -1,0 +1,50 @@
+# Node dependencies
+node_modules/
+
+# Frontend build output
+dist/
+dist-ssr/
+build/
+out/
+release/
+
+# Vite caches and local files
+.vite/
+*.local
+
+# Testing and coverage
+coverage/
+.nyc_output/
+vitest.config.ts.timestamp-*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Electron generated build artifacts
+electron/dist/
+electron/out/
+dist-electron/
+*.asar
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
